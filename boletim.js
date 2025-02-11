@@ -1,14 +1,15 @@
 let notas = [7.5, 9, 6];
-let media = 0;
+let soma = 0;
 
-for (let i = 0; i < notas.lenght; i++) {
-    media += notas[i];
+for (let i = 0; i < notas.length; i++) {
+    soma += notas[i];
 }
-media = media / 3;
+let media = soma / 3;
 
 
-if (media => 7) {
-console.log("Parabéns! Você está aprovado!")
+
+if (media >= 7) {
+console.log("Parabéns! Você está aprovado! ")
 } else {
     console.log("Você está reprovado! Estude mais na próxima.")
 }
