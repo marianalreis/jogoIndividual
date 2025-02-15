@@ -7,7 +7,7 @@ Pong é um dos primeiros videogames da história, que consiste em um jogo simple
 ---
 
 ## 2. Pesquisa e Análise Inicial  
-As principais características do jogo inicial Pong são a jogabilidade simples, os gráficos simples e minimalistas, apontuação simples e pré-determinada, o modelo clássico de jogo e os controles básicos. considerando os três elementos do **Framework MDA** e responda: o que torna Pong um jogo envolvente e jogável? Quais são seus **elementos principais de diversão e desafio**?*
+As principais características do jogo inicial Pong são a jogabilidade simples, os gráficos simples e minimalistas, apontuação simples e pré-determinada, o modelo clássico de jogo e os controles básicos. Pong se destaca por sua simplicidade e facilidade de aprender, o que o torna um jogo acessível e divertido. A cada partida, o desafio aumenta com a velocidade crescente da bola e a necessidade de mais precisão nos movimentos. A competitividade, seja contra outra pessoa ou a IA, mantém o jogo empolgante e faz com que os jogadores queiram jogar várias vezes. Essa combinação de uma mecânica simples, mas desafiadora, e a emoção da competição, são o que fazem de Pong um jogo envolvente até hoje, e uma ótima base para novas ideias e inovações.
 
 ---
 
