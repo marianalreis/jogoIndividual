@@ -2,12 +2,12 @@
 
 
 ## 1. Introdução  
-*Descreva brevemente o objetivo da atividade, mencionando a proposta de reinvenção do jogo Pong e a abordagem escolhida pela dupla.*
+Pong é um dos primeiros videogames da história, que consiste em um jogo simples de tênis de mesa, onde dois jogadores controlam barras para rebater uma bola e impedir que ela caia para fora em sua área. Nosso objetivo é reinventar esse jogo por meio da concept art e dar uma nova identidade visual e mecânica ao jogo, tornando-o mais envolvente e moderno. Nossa proposta de reinvenção traz cenários fictícios com uma interface atualizada, explorando temas como comidas e fundo do mar. No cenário de comidas, a bola é substituída por vetores de alimentos que devem ser rebatidos com uma panela; se caírem para fora, serão queimados. Já no cenário do fundo do mar, os elementos em jogo são conchas, algas e peixes, seguindo a mesma mecânica. Essa abordagem traz um novo apelo visual e temático, tornando a experiência mais dinâmica e divertida.
  
 ---
 
 ## 2. Pesquisa e Análise Inicial  
-*Explique as principais características do **jogo original Pong**, considerando os três elementos do **Framework MDA** e responda: o que torna Pong um jogo envolvente e jogável? Quais são seus **elementos principais de diversão e desafio**?*
+As principais características do jogo inicial Pong são a jogabilidade simples, os gráficos simples e minimalistas, apontuação simples e pré-determinada, o modelo clássico de jogo e os controles básicos. considerando os três elementos do **Framework MDA** e responda: o que torna Pong um jogo envolvente e jogável? Quais são seus **elementos principais de diversão e desafio**?*
 
 ---
 
@@ -46,7 +46,7 @@
 ---
 
 ## 6. Referências (se houver)  
-Caso tenha utilizado referências externas, inclua aqui as fontes consultadas.  
+techtudo (https://www.techtudo.com.br/noticias/2016/03/conheca-pong-o-primeiro-videogame-lucrativo-da-historia.ghtml?utm_source=chatgpt.com)
 
 ---
 
