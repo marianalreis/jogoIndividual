@@ -38,14 +38,20 @@ As principais características do jogo inicial Pong são a jogabilidade simples,
 ---
 
 ## 5. Reflexão e Aprendizados  
-*Cada membro da dupla deve responder individualmente:*  
 
 1. Quais foram os maiores desafios enfrentados durante o processo de criação?
 2. Que habilidades foram desenvolvidas ou aprimoradas ao longo da atividade?  
 
----
+Ana Júlia:
+1) Acredito que os maiores desafios enfrentados durante o processo de criação foi ter uma variação do pong que fosse viável e criativa, além de uma idealização da mesa que fosse interativa e que fizesse sentido para a equipe.
+2) As habilidades que mais foram desenvolvidas durante a atividade foram a de criatividade para poder idealizar um novo pong e trabalho em equipe, algo essencial para que todas concordassem com tudo.
 
-## 6. Referências (se houver)  
+ Rebeca Namura
+1) O maior desafio durante o processo foi representar a ideia da reformulação de forma clara sem entregar algo funcional, ou seja, o desenho e documentação devem ser bem detalhados para que a ideia seja transmitida corretamente.
+2) A habilidade de inovar em cima de algo que já existe, utilizando a criatividade. Além de termos aprendido a fazer um brainstorming de ideias mais organizado e colaborativo.
+
+
+## 6. Referências
 techtudo (https://www.techtudo.com.br/noticias/2016/03/conheca-pong-o-primeiro-videogame-lucrativo-da-historia.ghtml?utm_source=chatgpt.com)
 
 ---
