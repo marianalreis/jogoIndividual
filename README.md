@@ -12,23 +12,21 @@ As principais características do jogo inicial Pong são a jogabilidade simples,
 ---
 
 ## 3. Proposta de Reinvenção  
-*Explique as mudanças propostas para a nova versão do **Pong**, detalhando:*  
 
-*- **Tema e Ambientação:** Qual é o novo contexto do jogo?*
+*- **Tema e Ambientação:** O novo contexto do jogo é o ambiente que antes era simples e minimalista, sem muitas imagens, agora se passa em uma cozinha. A dinâmica de marcar pontos na área do adversário permanece, mas com um novo contexto em que sempre que um ponto é concedido, a comida queima devido ao fogo ao redor da mesa.
 
-*- **Personagens ou Elementos Visuais:** Se houver personagens ou variações visuais, descreva.*
+*- **Personagens ou Elementos Visuais:** As clássicas raquetes utilizadas em Pong se transformam em panelas, a mesa se transforma em mesa de jantar com pratos e talheres e a bola a ser jogada se transforma em diversos alimentos.
 
-*- **Mudanças na Mecânica:** Houve alguma alteração nas regras ou na forma de jogar?*
+*- **Mudanças na Mecânica:** Não ocorreu mudança na mecânica.
 
-*- **Objetivo da Reinvenção:** O que a nova versão pretende explorar ou melhorar em relação ao original?*
+*- **Objetivo da Reinvenção:** A nova versão pretende deixar o jogo mais atrativo ao estabelecer um tema com mais cores, em um contexto 
 
 *Inclua aqui um **rascunho da Folha de Concept Art** e uma explicação sobre como o esboço foi desenvolvido.*
 
 ---
 
 ## 4. Tela Digital do Jogo  
-  <img src="https://github.com/marianalreis/Relatorio-Pong/blob/main/Tela%20jogo%20UX.jpeg" style="width:40%"/>
-  <img src="https://github.com/marianalreis/Relatorio-Pong/blob/main/Tela%20jogo%20ux%202.jpeg" style="width:40%"/>
+  <img src="https://github.com/marianalreis/Relatorio-Pong/blob/main/Tela%20jogo%20UX.jpeg" style="width:40%"/>  <img src="https://github.com/marianalreis/Relatorio-Pong/blob/main/Tela%20jogo%20ux%202.jpeg" style="width:40%"/>
 
 *- Como o concept foi adaptado para o formato digital?*
 
