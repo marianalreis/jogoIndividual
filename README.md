@@ -13,15 +13,16 @@ As principais características do jogo inicial Pong são a jogabilidade simples,
 
 ## 3. Proposta de Reinvenção  
 
-*- **Tema e Ambientação:** O novo contexto do jogo é o ambiente que antes era simples e minimalista, sem muitas imagens, agora se passa em uma cozinha. A dinâmica de marcar pontos na área do adversário permanece, mas com um novo contexto em que sempre que um ponto é concedido, a comida queima devido ao fogo ao redor da mesa.
+*- **Tema e Ambientação:** O novo contexto do jogo é o ambiente que antes era simples e minimalista, sem muitas imagens, agora se passa em uma das telas que o usúario escolher de personalização, no exemplo fizemos relacionados a cozinha. A dinâmica de marcar pontos na área do adversário permanece, mas com um novo contexto em que sempre que um ponto é concedido, a comida queima devido ao fogo ao redor da mesa.
 
-*- **Personagens ou Elementos Visuais:** As clássicas raquetes utilizadas em Pong se transformam em panelas, a mesa se transforma em mesa de jantar com pratos e talheres e a bola a ser jogada se transforma em diversos alimentos.
+*- **Personagens ou Elementos Visuais:** Na tela de cozinha: as clássicas raquetes utilizadas em Pong se transformam em panelas, a mesa se transforma em mesa de jantar com pratos e talheres e a bola a ser jogada se transforma em diversos alimentos.
 
 *- **Mudanças na Mecânica:** Não ocorreu mudança na mecânica.
 
 *- **Objetivo da Reinvenção:** A nova versão pretende deixar o jogo mais atrativo ao estabelecer um tema com mais cores e contexto, a partir de sua mecânica inicial que já era divertida porém faltava elementos visuais para sair do comum.
 
 <img src="https://github.com/marianalreis/Relatorio-Pong/blob/main/Rascunho%20concept.jpeg" style="width:40%"/>
+Este foi o nosso esboço, que foi desenvolvido a partir do pensamento de como poderiamos reinventar o jogo, então pensamos no menu e fazer temas personalizados a partir da mecânica do jogo Pong, e fizemos dois exemplos de personalização, demonstramos o menu com os exemplos de bolas. Assim, mostrando como seria o nosso jogo inicialmente.
 
 ---
 
