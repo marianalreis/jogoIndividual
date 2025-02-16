@@ -21,7 +21,7 @@ As principais características do jogo inicial Pong são a jogabilidade simples,
 
 *- **Objetivo da Reinvenção:** A nova versão pretende deixar o jogo mais atrativo ao estabelecer um tema com mais cores e contexto, a partir de sua mecânica inicial que já era divertida porém faltava elementos visuais para sair do comum.
 
-*Inclua aqui um **rascunho da Folha de Concept Art** e uma explicação sobre como o esboço foi desenvolvido.*
+<img src="https://github.com/marianalreis/Relatorio-Pong/blob/main/Rascunho%20concept.jpeg" style="width:40%"/>
 
 ---
 
