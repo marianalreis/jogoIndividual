@@ -27,7 +27,7 @@ As principais características do jogo inicial Pong são a jogabilidade simples,
 ---
 
 ## 4. Tela Digital do Jogo  
-  <img src="https://github.com/marianalreis/Relatorio-Pong/blob/main/Tela%20jogo%20UX.jpeg" alt=" style="width:40%"/>
+  <img src="https://github.com/marianalreis/Relatorio-Pong/blob/main/Tela%20jogo%20UX.jpeg"/>
 
 *- Como o concept foi adaptado para o formato digital?*
 
