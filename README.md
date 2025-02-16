@@ -19,7 +19,7 @@ As principais características do jogo inicial Pong são a jogabilidade simples,
 
 *- **Mudanças na Mecânica:** Não ocorreu mudança na mecânica.
 
-*- **Objetivo da Reinvenção:** A nova versão pretende deixar o jogo mais atrativo ao estabelecer um tema com mais cores, em um contexto 
+*- **Objetivo da Reinvenção:** A nova versão pretende deixar o jogo mais atrativo ao estabelecer um tema com mais cores e contexto, a partir de sua mecânica inicial que já era divertida porém faltava elementos visuais para sair do comum.
 
 *Inclua aqui um **rascunho da Folha de Concept Art** e uma explicação sobre como o esboço foi desenvolvido.*
 
@@ -28,11 +28,11 @@ As principais características do jogo inicial Pong são a jogabilidade simples,
 ## 4. Tela Digital do Jogo  
   <img src="https://github.com/marianalreis/Relatorio-Pong/blob/main/Tela%20jogo%20UX.jpeg" style="width:40%"/>  <img src="https://github.com/marianalreis/Relatorio-Pong/blob/main/Tela%20jogo%20ux%202.jpeg" style="width:40%"/>
 
-*- Como o concept foi adaptado para o formato digital?*
+O nosso concept art foi adaptado para a versão digital a partir de um programa que permite desenharmos em tela digital, com maior facilidade para os traços e cores, permitindo maior precisão e velocidade e um estilo mais visto em games.
 
-*- Quais elementos visuais foram aprimorados?*  
+Principalmente as cores foram aprimoradas e os traços ficaram mais lúcidos, tranformando nossos elementos em vetores com bordas duras, fazendo se assemelhar mais ainda com outros games.
 
-*- O uso de cores, formas e layout foi pensado para reforçar que aspectos do jogo?*  
+O uso de cores, formas e layout foram pensados para reforçar a identidade visual do nosso jogo e garantir uma boa experiência de usuário. As cores usadas foram pensadas reforçando a ambientação, como cores quentes e fogo para a cozinha, já as formas de objeto foram pensadas para reforçar a reinvenção proposta e o layout foi pensado para manter a mecânica do jogo original e tornar o design mais envolvente e dinâmico.
 
 ---
 
@@ -41,11 +41,15 @@ As principais características do jogo inicial Pong são a jogabilidade simples,
 1. Quais foram os maiores desafios enfrentados durante o processo de criação?
 2. Que habilidades foram desenvolvidas ou aprimoradas ao longo da atividade?  
 
-Ana Júlia:
+**Ana Júlia:**
 1) Acredito que os maiores desafios enfrentados durante o processo de criação foi ter uma variação do pong que fosse viável e criativa, além de uma idealização da mesa que fosse interativa e que fizesse sentido para a equipe.
 2) As habilidades que mais foram desenvolvidas durante a atividade foram a de criatividade para poder idealizar um novo pong e trabalho em equipe, algo essencial para que todas concordassem com tudo.
 
- Rebeca Namura
+**Mariana Reis:**
+1) Os maiores desafios que enfrentamos foram pensar em alguma ideia que ainda não existia e aplicá-las na ideia do jogo Pong de maneira criativa e que despertasse atenção dos jogadores.
+2) Acredito que as maiores habilidades desenvolvidas foram a criatividade para inovação  e o pensamento em mercado para ver de qual maneira iria ser atrativo para o nosso público.
+   
+**Rebeca Namura:**
 1) O maior desafio durante o processo foi representar a ideia da reformulação de forma clara sem entregar algo funcional, ou seja, o desenho e documentação devem ser bem detalhados para que a ideia seja transmitida corretamente.
 2) A habilidade de inovar em cima de algo que já existe, utilizando a criatividade. Além de termos aprendido a fazer um brainstorming de ideias mais organizado e colaborativo.
 
