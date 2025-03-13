@@ -16,6 +16,8 @@ c) A saída será undefined seguido de undefined
 
 d) A saída será erro em ambas as linhas que utilizam console.log
 
+**JUSTIFICATIVA**
+
 
 **2) O seguinte código JavaScript tem um erro que impede sua execução correta. Analise e indique a opção que melhor corrige o problema. Justifique sua resposta.**
 
@@ -36,6 +38,8 @@ b) Substituir if (a || b === 0) por if (a === 0 && b === 0)
 c) Substituir if (a || b === 0) por if (a && b === 0)
 
 d) Remover completamente a verificação if (a || b === 0)
+
+**JUSTIFICATIVA**
 
 ______
 **3) Ao executar esse código, qual será a saída no console? Indique a alternativa correta e justifique sua resposta.**
@@ -70,6 +74,8 @@ c) O código imprime 50.
 
 d) O código gera um erro.
 
+**JUSTIFICATIVA**
+
 ______
 **4) Ao executar esse código, qual será a saída no console? Indique a alternativa correta e justifique sua resposta.**
 ```javascript
@@ -86,6 +92,9 @@ b) 6
 c) 18
 
 ✅) 24
+
+**JUSTIFICATIVA**
+
 ______
 **5) Qual será o conteúdo do array lista após a execução do código? Indique a alternativa correta e justifique sua resposta.**
 
@@ -102,6 +111,9 @@ b) ["banana", "abacaxi", "manga"]
 ✅) ["banana", "abacaxi", "manga", "laranja"]
 
 d) ["banana", "maçã", "uva", "abacaxi", "manga"]
+
+**JUSTIFICATIVA**
+
 ______
 **6) Abaixo há duas afirmações sobre herança em JavaScript. Indique a alternativa correta e justifique sua resposta**
 
@@ -116,6 +128,10 @@ b) As duas afirmações são verdadeiras, mas a segunda não justifica a primeir
 c) A primeira afirmação é verdadeira, e a segunda é falsa.
 
 d) A primeira afirmação é falsa, e a segunda é verdadeira.
+
+**JUSTIFICATIVA**
+
+
 ______
 **7) Dado o seguinte código. Indique a alternativa correta e justifique sua resposta.**
 
@@ -159,6 +175,8 @@ c) Apenas II é verdadeira.
 
 d) Apenas I é verdadeira.
 
+**JUSTIFICATIVA**
+
 ______
 
 **8) Analise as afirmações a seguir. Indique a alternativa correta e justifique sua resposta.**
@@ -173,6 +191,9 @@ a) A asserção é falsa e a razão é verdadeira.
 c) A asserção é verdadeira e a razão é verdadeira, mas a razão não explica a asserção.
 
 d) A asserção é verdadeira e a razão é verdadeira, e a razão explica a asserção.
+
+**JUSTIFICATIVA**
+
 
 ______
 
@@ -189,13 +210,15 @@ function somaArray(numeros) {
 }
 console.log(somaArray([1, 2, 3, 4]));
 ```
+**RESPOSTA**
+
 O código anterior tinha três erros, que estavam o fazendo não carregar, sua variável soma não estava declarada, o numeros.size não existe em javaScript e o valor da soma não estava acumulando. Segue meu código comentado e corrigido:
 
 ```
 function somaArray(numeros) {
 
     let soma = 0; // O código não tinha a variável soma declarada, portanto adicionei utilizando o let.
-    for (i = 0; i < numeros.length; i++) { // Não se utiliza .size em JavaScript, então alterei para .length.
+    for (let i = 0; i < numeros.length; i++) { // Não se utiliza .size em JavaScript, então alterei para .length e atribui a variavel let ao i.
         soma += 2*numeros[i]; // o código não tinha o +, então os valores não se acumulavam, portanto adicionei o +=.
     }
     return soma;
@@ -209,3 +232,31 @@ ______
 - Uma classe `Livro` que herda de `Produto` e modifica o método `calcularDesconto()`, aplicando um desconto de 20% no preço dos livros.
 
 Explique como funciona a herança nesse contexto e como você implementaria a modificação do método na classe `Livro`.
+
+**RESPOSTA**
+```
+class Produto { // criei a classe Produto
+    constructor(nome, preco) { //criei os atributos nome e preco
+        this.nome = nome;
+        this.preco = preco;
+    }
+
+    calcularDesconto() { //criei o método calcularDesconto
+        const desconto = this.preco * 0.1; // criei a variável para desconto e atribuí 10% do preço
+        return this.preco - desconto; //retirei o desconto do preço do produto
+    }
+}
+
+class Livro extends Produto { // criei a classe Livro que herda de Produto
+    constructor(nome, preco) {
+        // Chamei os atributos da classe pai (Produto)
+        super(nome, preco);
+    }
+      
+    calcularDesconto() { //modifiquei o método calcularDesconto
+    const desconto = this.preco * 0.2; //alterei para 20% de desconto 
+    return this.preco - desconto;
+        }
+    }
+```
+A herança, nesse contexto, utiliza os mesmos atributos da classe anterior "Produto", que sempre são usados nesse contexto de vendas e utiliza o mesmo método que o anterior, porém modifica a margem de valor para um maior desconto. Para modificar o método,mantive a constante de desconto declarada e o retorno, porém ao multiplicar o atributro preço, pela quantidade do seu desconto, alterei seu valor. Um exemplo real seria: Imagina você está comprando materiais exigidos pela sua faculdade em uma loja e, emtre esses materiais, está o livro "A Segunda Era das Máquinas." e uma "caixa de lápis de cor" (nomes), ambos custam 30 reais(preço), percebe-se que independente do tipo de produto, todos tem um nome e o preço declarados? Isso são os atributos que foram utilizados nas duas classes e a "Livro" herdou da "Produto". Agora, você está no caixa e recebe seu desconto, porém percebe que os valores de cada um se diferenciaram, cujo o livro está custando 24 reais e os lápis 27 reais. Isso ocorre, pois ao fornecer desconto em Produto, a loja criou um método para dar desconto de 10%, porém ao atribuir aos Livros, resolveu ser mais generosa, modificou seu método e aumentou o desconto para 20%.
