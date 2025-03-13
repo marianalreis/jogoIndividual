@@ -16,7 +16,7 @@ c) A saída será undefined seguido de undefined
 
 d) A saída será erro em ambas as linhas que utilizam console.log
 
-**JUSTIFICATIVA**
+**JUSTIFICATIVA:**
 A declaração da variável x ocorre depois da impressão do valor de x, então o que se sabe é que a variável existe, mas ainda não recebeu seu valor, então será impresso "undefined", assim como imprimiu quando joguei no vs code. Já na impressão de y, além de ser declarada antes de ser atribuído seu valor, mas foi utilizado o let, que não pode ser usado depois, portanto, y está trancado e o código da erro.
 
 **2) O seguinte código JavaScript tem um erro que impede sua execução correta. Analise e indique a opção que melhor corrige o problema. Justifique sua resposta.**
@@ -39,7 +39,8 @@ c) Substituir if (a || b === 0) por if (a && b === 0)
 
 d) Remover completamente a verificação if (a || b === 0)
 
-**JUSTIFICATIVA**
+**JUSTIFICATIVA:**
+A função verifica dois parâmetros (a & b) e ao validar o primeiro termo **a**, quando diferente de zero, já é considerada verdadeira, sem passar pelo segundo, porém, foi retornado "Erro: número inválido", mesmo com parâmetro inicial verdadeiro. Então, para função ficar correta, é necessário deixar if (a === 0 || b === 0), que verifica se cada um dos parâmetros é zero, intenção inicial da função com a entrada soma(2, 0), fazendo a mensagem "Erro: número inválido" de maneira conexa.
 
 ______
 **3) Ao executar esse código, qual será a saída no console? Indique a alternativa correta e justifique sua resposta.**
@@ -74,7 +75,8 @@ c) O código imprime 50.
 
 d) O código gera um erro.
 
-**JUSTIFICATIVA**
+**JUSTIFICATIVA:**
+O sentido do código seria que o preço do eletrônico era 1000, porém após anunciar o preço não tem a palavra "break", então o código não é interrompido. Fazendo o console.log imprimir apenas o preco do próximo, que tem break no valor de 200, impresso pelo código.
 
 ______
 **4) Ao executar esse código, qual será a saída no console? Indique a alternativa correta e justifique sua resposta.**
