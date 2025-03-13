@@ -189,6 +189,19 @@ function somaArray(numeros) {
 }
 console.log(somaArray([1, 2, 3, 4]));
 ```
+O código anterior tinha três erros, que estavam o fazendo não carregar, sua variável soma não estava declarada, o numeros.size não existe em javaScript e o valor da soma não estava acumulando. Segue meu código comentado e corrigido:
+
+```
+function somaArray(numeros) {
+
+    let soma = 0; // O código não tinha a variável soma declarada, portanto adicionei utilizando o let.
+    for (i = 0; i < numeros.length; i++) { // Não se utiliza .size em JavaScript, então alterei para .length.
+        soma += 2*numeros[i]; // o código não tinha o +, então os valores não se acumulavam, portanto adicionei o +=.
+    }
+    return soma;
+}
+console.log(somaArray([1, 2, 3, 4]));
+```
 ______
 10) Crie um exemplo prático no qual você tenha duas classes:
 
