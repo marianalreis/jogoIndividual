@@ -17,7 +17,7 @@ c) A saída será undefined seguido de undefined
 d) A saída será erro em ambas as linhas que utilizam console.log
 
 **JUSTIFICATIVA**
-
+A declaração da variável x ocorre depois da impressão do valor de x, então o que se sabe é que a variável existe, mas ainda não recebeu seu valor, então será impresso "undefined", assim como imprimiu quando joguei no vs code. Já na impressão de y, além de ser declarada antes de ser atribuído seu valor, mas foi utilizado o let, que não pode ser usado depois, portanto, y está trancado e o código da erro.
 
 **2) O seguinte código JavaScript tem um erro que impede sua execução correta. Analise e indique a opção que melhor corrige o problema. Justifique sua resposta.**
 
