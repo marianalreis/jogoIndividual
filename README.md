@@ -1,19 +1,4 @@
 # lista_01.md
-# Instruções
-- Faça uma cópia deste arquivo .md para um repositório próprio
-- Resolva as 8 questões objetivas assinalando a alternativa correta e **justificando sua resposta.**
-- Resolva as 2 questões dissertativas escrevendo no próprio arquivo .md
-- Lembre-se de utilizar as estruturas de código como ``esta aqui com ` `` ou
-```javascript
-//esta aqui com ```
-let a = "olá"
-let b = 10
-print(a)
-```
-- Resolva as questões com uso do Visual Studio Code ou ambiente similar.
-- Teste seus códigos antes de trazer a resposta para cá.
-- Cuidado com o uso de ChatGPT (e similares), pois entregar algo só para ganhar nota não fará você aprender. Não seja dependente da máquina!
-- Ao final, publique seu arquivo lista_01.md com as respostas em seu repositório, e envie o link pela Adalove. 
 
 # Questões objetivas
 **1) Considerando a execução do código abaixo, indique a alternativa correta e justifique sua resposta.**
@@ -23,7 +8,7 @@ var x = 5;
 console.log(y);
 let y = 10;
 ```
-a) A saída será undefined seguido de erro 
+✅) A saída será undefined seguido de erro 
 
 b) A saída será 5 seguido de 10
 
@@ -44,7 +29,7 @@ function soma(a, b) {
 console.log(soma(2, 0));
 ```
 
-a) Substituir if (a || b === 0) por if (a === 0 || b === 0)
+✅) Substituir if (a || b === 0) por if (a === 0 || b === 0)
 
 b) Substituir if (a || b === 0) por if (a === 0 && b === 0)
 
@@ -77,7 +62,7 @@ function calcularPreco(tipo) {
 console.log(calcularPreco("eletrônico"));
 ```
 
-a) O código imprime 1000.
+✅) O código imprime 1000.
 
 b) O código imprime 200.
 
@@ -100,7 +85,7 @@ b) 6
 
 c) 18
 
-d) 24
+✅) 24
 ______
 **5) Qual será o conteúdo do array lista após a execução do código? Indique a alternativa correta e justifique sua resposta.**
 
@@ -114,7 +99,7 @@ a) ["banana", "maçã", "uva", "abacaxi", "manga", "laranja"]
 
 b) ["banana", "abacaxi", "manga"]
 
-c) ["banana", "abacaxi", "manga", "laranja"]
+✅) ["banana", "abacaxi", "manga", "laranja"]
 
 d) ["banana", "maçã", "uva", "abacaxi", "manga"]
 ______
@@ -124,7 +109,7 @@ I. A herança é utilizada para compartilhar métodos e propriedades entre class
 II. Em JavaScript, a herança é implementada através da palavra-chave `extends`.
 
 
-a) As duas afirmações são verdadeiras, e a segunda justifica a primeira.
+✅) As duas afirmações são verdadeiras, e a segunda justifica a primeira.
 
 b) As duas afirmações são verdadeiras, mas a segunda não justifica a primeira.
 
@@ -166,7 +151,7 @@ III) O código não funciona corretamente, pois Funcionario não pode herdar de 
 
 Quais das seguintes afirmações são verdadeiras sobre o código acima?
 
-a) I e II são verdadeiras.
+✅) I e II são verdadeiras.
 
 b) I, II e III são verdadeiras.
 
@@ -183,7 +168,7 @@ ______
 
 a) A asserção é falsa e a razão é verdadeira.
 
-b) A asserção é verdadeira e a razão é falsa.
+✅) A asserção é verdadeira e a razão é falsa.
 
 c) A asserção é verdadeira e a razão é verdadeira, mas a razão não explica a asserção.
 
