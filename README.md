@@ -96,7 +96,7 @@ c) 18
 ✅) 24
 
 **JUSTIFICATIVA**
-
+Os números declarados pelo let, são duplicados ao passar pelo map se tornando [2, 4, 6, 8, 10], depois é filtrado no filter, selecionando apenas os maiores que 5, sobrendo [6, 8, 10], e por último seus valores são somados no reduce 6+8+10 junto com o valor inicial 0, totalizando o resultado 24.
 ______
 **5) Qual será o conteúdo do array lista após a execução do código? Indique a alternativa correta e justifique sua resposta.**
 
@@ -115,6 +115,7 @@ b) ["banana", "abacaxi", "manga"]
 d) ["banana", "maçã", "uva", "abacaxi", "manga"]
 
 **JUSTIFICATIVA**
+Coloquei essa resposta pois o comando lista.splice diz o índice inicial e a quantidade de itens em sequência a ser removidos, os que vem após são para substituir na lista. Portanto, o 1 indica queo íncide inicial será a maçã, e como são 2 elementos será a sequência "maçã" e "uva", que serão removidos e respectivamente "abacaxi" e "manga", irão substituílos, o resto sera mantido, transformando a lista em ["banana", "abacaxi", "manga", "laranja"].
 
 ______
 **6) Abaixo há duas afirmações sobre herança em JavaScript. Indique a alternativa correta e justifique sua resposta**
@@ -123,9 +124,9 @@ I. A herança é utilizada para compartilhar métodos e propriedades entre class
 II. Em JavaScript, a herança é implementada através da palavra-chave `extends`.
 
 
-✅) As duas afirmações são verdadeiras, e a segunda justifica a primeira.
+a) As duas afirmações são verdadeiras, e a segunda justifica a primeira.
 
-b) As duas afirmações são verdadeiras, mas a segunda não justifica a primeira.
+✅) As duas afirmações são verdadeiras, mas a segunda não justifica a primeira.
 
 c) A primeira afirmação é verdadeira, e a segunda é falsa.
 
@@ -133,7 +134,7 @@ d) A primeira afirmação é falsa, e a segunda é verdadeira.
 
 **JUSTIFICATIVA**
 
-
+A afirmativa I está correta pois esse é o conceito de herança, fazendo uma classe herdar conceitos de outra. A afirmativa II também esta correta, pois essa é a palavra chave utilizada quando se herda herança. Porém, a segunda não necessáriamente justifica a primeira, pois a priemira é conceito e a segunda mostra apenas o termo tecnico.
 ______
 **7) Dado o seguinte código. Indique a alternativa correta e justifique sua resposta.**
 
@@ -178,7 +179,7 @@ c) Apenas II é verdadeira.
 d) Apenas I é verdadeira.
 
 **JUSTIFICATIVA**
-
+As afirmativas I e II estão corretas pois explicam corretamente os termos em relação ao código, e os termos tecnicos de classe pai. Porém o III está incorreto ao afirmar que o JavaScript não herda herança de classes e que a classe não pode herdar da outra.
 ______
 
 **8) Analise as afirmações a seguir. Indique a alternativa correta e justifique sua resposta.**
@@ -195,8 +196,7 @@ c) A asserção é verdadeira e a razão é verdadeira, mas a razão não explic
 d) A asserção é verdadeira e a razão é verdadeira, e a razão explica a asserção.
 
 **JUSTIFICATIVA**
-
-
+A asserção é verdadeira pois o polimorfismo é um dos conceitos da Programação Orientada a Objetos, já a razão é falsa pois o JavaScript não suporta sobrecarga de métodos em classe, se você tiver muitos métodos, apenas será válido o último, substituindo as outras versões.
 ______
 
 # Questões dissertativas
