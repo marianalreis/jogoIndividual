@@ -66,9 +66,9 @@ function calcularPreco(tipo) {
 console.log(calcularPreco("eletrônico"));
 ```
 
-✅) O código imprime 1000.
+a) O código imprime 1000.
 
-b) O código imprime 200.
+✅) O código imprime 200.
 
 c) O código imprime 50.
 
