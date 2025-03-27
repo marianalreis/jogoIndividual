@@ -1,5 +1,4 @@
 # lista_02.md
-# Instruções
 
 # Questões objetivas
 
@@ -35,6 +34,8 @@ C) O código avalia a expressão booleana, imprime `true` e, em seguida, verific
 
 D) O código avalia a expressão booleana, imprime `false` e ordena os valores em ordem crescente.
 
+### Justificativa:
+O código começa com um condição de verificar duas afirmações, que o resto de 10/3 é um E que 6*2>10, ambas são verdadeiras que na expressão booleana resulta em 'true' OU que 3+6<10, que também resulta em 'true', ou seja, o console resultaria em 'true' com qualquer uma sendo verdadeira. Em seguida, a função deseja calcular o produto de todos numeros expostos no 'const valores', operação exposta em seguida do for, com o resultado impresso no console, tornando a alternativa A verdadeira.
 
 ______
 
@@ -96,6 +97,9 @@ B) analisarCredito1() exibirá: 'Seu crédito foi negado. Saldo disponível: -60
 C) analisarCredito1() exibirá: 'Seu crédito foi negado. Saldo disponível: -200.', enquanto analisarCredito2() exibirá: 'Seu crédito foi aprovado. Saldo disponível: 100.'
 
 D) Ambas as funções exibirão: 'Seu crédito foi aprovado Saldo disponível: 500.'
+
+### Justificativa:
+Ambas as funções servem para calcular o crédito somando e acumulando a partir de '+=' os valores de um array, que é o mesmo nas duas situações e impõe um limite de crédito de 5 mil, portanto quando são todos somados, com um total de 4600, as funções ordenam tirar do total para, assim, apontar o resto que é quanto sobrou, no caso 400. Desse modo, as duas imprimem o mesmo valor restante 400, alternativa A. 
 ______
 
 **3)** Considere o seguinte trecho de código em JavaScript:
@@ -120,6 +124,9 @@ A) O código verifica se a idade indica um adulto ou um idoso e exibe a mensagem
 C) O código verifica se a idade está entre 18 e 60 anos e, se for, imprime "Você é um adulto!". Se não estiver nesse intervalo, imprime "Você está na melhor idade!".
 
 D) O código verifica se a idade é menor de 18, entre 18 e 60 ou acima de 60, imprimindo uma mensagem específica para cada caso.
+
+### Justificativa:
+O código se trata de uma condicional if/else, em que declara uma idade e as condições de impressão de diferentes faixas etárias. Então, o 'if' nesse caso avalia se a condição imposta é verdadeira, pois se for verificada, já imprime essa frase e encerra o código, senão, impõe outra condição, e se nenhuma das duas for verificada, se utiliza o 'else' e imprime a última frase. Portanto, a alternativa B explica de maneira correta.
 ______
 
 **4)** Qual será o resultado impresso no console após a execução do seguinte código?
@@ -189,6 +196,9 @@ Dispositivo 4 não pode ser ligado. Energia insuficiente.
 
 Dispositivo 5 não pode ser ligado. Energia insuficiente.
 
+### Justificativa:
+O código se trata de um cálculo de bateria que utiliza operação e declara valor de duas baterias e disponibiliza valores do array de dispositivos, então ao ser utilizado, subtrai do valor da primeira bateria, soma o valor da bateria extra e vai acumulando a subtração dos valores. Até o momento em que não tem mais bateria disponível, no dispositivo 4 e assim suscessivamente no 5. Portanto, a alternativa B está correta.
+
 ______
 
 **5)** Qual é a principal função do método update() em um jogo desenvolvido com Phaser.js?
@@ -202,6 +212,10 @@ A) O método update() é responsável por carregar os assets do jogo antes da ce
 C) O método update() renderiza todos os sprites na tela e garante que a física do jogo seja processada corretamente.
 
 D) O método update() é chamado apenas uma vez após a criação da cena, sendo utilizado para configurar variáveis iniciais do jogo.
+
+### Justificativa:
+O método update roda continuamente durante o jogo, sendo usado para atualizar lógica, movimentação e interações dos objetos a cada quadro. Portanto, a alternativa B está correta.
+
 ______
 
 **6)** Qual é o principal objetivo do módulo Matter.js Physics em Phaser.js?
@@ -215,6 +229,9 @@ B) Gerenciar eventos de entrada do usuário, como cliques e toques na tela, perm
 C) Renderizar gráficos otimizados para jogos 2D e garantir uma taxa de quadros estável.
 
 D) Criar animações automáticas para sprites e objetos interativos sem necessidade de programação de movimentação.
+
+### Justificativa:
+O Matter.js simula física avançada nos jogos, permitindo interações realistas entre objetos, como colisões, gravidade e forças, o que o diferencia da física simples. Portanto, a alternativa A está correta.
 
 ______
 
