@@ -165,7 +165,7 @@ Dispositivo 4 ligado com bateria extra. Energia restante: 0
 
 Dispositivo 5 ligado. Energia restante: -200
 
- ✅)
+ b)
 Dispositivo 1 ligado. Energia restante: 900
 
 Dispositivo 2 ligado com bateria extra. Energia restante: 700
@@ -185,7 +185,7 @@ Dispositivo 3 ligado. Energia restante: 400
 
 Dispositivo 4 não pode ser ligado. Energia insuficiente.
 
-D)
+✅)
 Dispositivo 1 ligado. Energia restante: 900
 
 Dispositivo 2 ligado. Energia restante: 300
@@ -197,7 +197,7 @@ Dispositivo 4 não pode ser ligado. Energia insuficiente.
 Dispositivo 5 não pode ser ligado. Energia insuficiente.
 
 ### Justificativa:
-O código se trata de um cálculo de bateria que utiliza operação e declara valor de duas baterias e disponibiliza valores do array de dispositivos, então ao ser utilizado, subtrai do valor da primeira bateria, soma o valor da bateria extra e vai acumulando a subtração dos valores. Até o momento em que não tem mais bateria disponível, no dispositivo 4 e assim suscessivamente no 5. Portanto, a alternativa B está correta.
+O código se trata de um cálculo de bateria que utiliza operação e declara valor de duas baterias e disponibiliza valores do array de dispositivos. Então ao ser utilizado, subtrai do valor da primeira bateria, utiliza também o valor da bateria extra quando necessário, e vai acumulando a subtração dos valores. Até o momento em que não tem mais energia disponível, no dispositivo  4 e 5, que não podem ser ligados. Portanto, a D está correta.
 
 ______
 
@@ -248,6 +248,18 @@ Pedidos entre R$50,00 e R$199,99 (inclusive) → "Frete com custo adicional!"
 Pedidos de R$200,00 ou mais → "Frete grátis!"
 ```
 Implemente um pseudocódigo que receba o valor total da compra e exiba a classificação correta do frete para o cliente.
+``` INÍCIO
+produto -> 75
+
+se (valor < 50);
+então imprima "Frete não disponíveis";
+senão se ( 50 < valor <= 199,99 );
+então imprima "Frete com custo adicional";
+senão imprima "Frete Grátis!"
+
+FIM
+```
+
 ______
 
 **8)** Considere a implementação da classe base Veiculo em um sistema de modelagem de veículos. Sua tarefa é implementar, utilizando pseudocódigo, as classes derivadas Carro e Moto, que herdam da classe Veiculo, adicionando atributos específicos e métodos para calcular o consumo de combustível de um carro e de uma moto, respectivamente.
@@ -265,6 +277,46 @@ Método CalcularConsumo():
 ```
 Implementação genérica para cálculo de consumo, a ser sobrescrita pelas subclasses.
 Agora, implemente as classes Carro e Moto, garantindo que ambas herdem de Veiculo e possuam métodos específicos para calcular o consumo de combustível com base na quilometragem e eficiência do veículo.
+
+```
+Classe Veiculo:
+Atributos:
+
+modelo
+ano
+Método Construtor(modelo, ano):
+
+Define os valores dos atributos modelo e ano com os valores passados como parâmetro.
+Método CalcularConsumo():
+
+Classe Carro herda de Veículo:
+
+Atributos:
+
+modelo
+ano
+cor
+Metódo Construtor(modelo, ano, cor):
+
+Método Super(modelo, ano)
+
+Herda os atributos modelo e ano e constrói um novo atributo cor com os valores passados como parâmetro.
+Método CalcularConsumo();
+
+Classe Moto herda de Veículo:
+Atributos:
+
+modelo
+ano
+cor
+velocidade
+Método Construtor(modelo, ano, cor, marca):
+Método Super(modelo, ano,  cor)
+
+Herda os atributos modelo, ano, cor e constrói um novo atributo marca com os valores passados como parâmetro.
+Método CalcularConsumo();
+
+```
 ______
 
 **9)** Você é um cientista da NASA e está ajudando no desenvolvimento de um sistema de pouso para sondas espaciais em Marte. Seu objetivo é calcular o tempo necessário para que a sonda reduza sua velocidade até um nível seguro para pouso, considerando uma velocidade inicial de entrada na atmosfera marciana e uma taxa de desaceleração constante causada pelo atrito atmosférico e retrofoguetes.
@@ -278,6 +330,32 @@ Considere a fórumla de atualização velocidade:
     velocidade = velocidadeInicial - desaceleracao * tempo
 ```
 Seu programa deve determinar quanto tempo será necessário para que a sonda atinja uma velocidade segura de pouso, sem ultrapassar os limites estabelecidos.
+
+```
+INICIO
+
+velocidadeInicial <- 500  em m/s
+velocidadeSegura <- 40  em m/s
+desaceleracao <- 25  em m/s²
+tempoMaximo <- 30  em segundos
+desaceleracaoMinima <- 10  em m/s²
+Função CalcularTempoDePouso(velocidadeInicial, velocidadeSegura, desaceleracaoConstante, tempoMaximo, desaceleracaoMinima):
+    Se (desaceleracao < desaceleracaoMinima)
+então exibir "Erro: desaceleração abaixo do limite mínimo permitido."
+ENCERRAR
+
+ tempo <- (velocidadeInicial - velocidadeSegura) / desaceleracao
+
+    Se (tempo > tempoMaximo)
+ então exibir "Erro: tempo necessário excede o limite máximo de descida."
+ENCERRAR
+
+tempo <- CalcularTempoDePouso(velocidadeInicial, velocidadeSegura, desaceleracaoConstante, tempoMaximo, desaceleracaoMinima)
+Escrever("Tempo necessário para pouso seguro:")
+Escrever(tempo)
+FIM
+```
+
 ______
 
 **10)** Em um sistema de análise financeira, as operações de investimento de uma empresa podem ser representadas por matrizes, onde cada linha representa um tipo de investimento e cada coluna representa um período de tempo.
@@ -310,3 +388,26 @@ Escrever("Total de investimentos acumulados:")
 ImprimirMatriz(totalInvestimentos)  
 ```
 Agora, implemente a função MultiplicarMatrizesInvestimento(matrizA, matrizB), que multiplica as duas matrizes, simulando o efeito de diferentes fatores de crescimento e impacto financeiro nos investimentos ao longo do tempo.
+
+```
+Função MultiplicarMatrizesInvestimento(matrizA, matrizB):
+    linhasA <- tamanho(matrizA)
+    colunasA <- tamanho(matrizA[0])
+    linhasB <- tamanho(matrizB)
+    colunasB <- tamanho(matrizB[0])
+
+    Se colunasA ≠ linhasB então:
+        Retornar "As matrizes não podem ser multiplicadas. Dimensões incompatíveis."
+
+    matrizResultado <- novaMatriz(linhasA, colunasB)
+
+    Para i de 0 até linhasA - 1 faça:
+        Para j de 0 até colunasB - 1 faça:
+            soma <- 0
+            Para k de 0 até colunasA - 1 faça:
+                soma <- soma + matrizA[i][k] * matrizB[k][j]
+            matrizResultado[i][j] <- soma
+
+    Retornar matrizResultado
+
+```
