@@ -1,0 +1,100 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+    <title>Exercício do Pássaro</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;  }
+    </style>
+</head>
+<body>
+
+    <script>
+
+        var config = {
+            type: Phaser.AUTO,
+            width: 800,
+            height: 600,
+    
+            scene: {
+                preload: preload,
+                create: create,
+                update: update
+            }
+        };
+    
+        var game = new Phaser.Game(config); // cria o jogo
+
+        var passarinho; // declara a variável passarinho
+    
+        function preload() { // carrega as imagens
+            this.load.image('bg', 'assets/bg_space.png'); // carrega a imagem de fundo
+            this.load.spritesheet('bird', 'assets/bird-red.png', { frameWidth: 75, frameHeight: 75}); // carrega as imagens dos passarinhos
+        } 
+    
+        function create() { // adiciona as imagens
+            this.add.image(400, 300, 'bg').setScale(1.2); // adiciona a imagem de fundo
+          passarinho = this.add.sprite(100, 300, 'bird').setScale(1.3); // adiciona o passarinh
+          this.anims.create({ // faz a animação do passarinho
+         key: 'fly', // é o nome da animação
+         frames: this.anims.generateFrameNumbers('bird' , { start: 0, end: 7}), // são os frames da animação
+         frameRate: 10, // é a velocidade da animação
+         repeat: -1 // é a repetição da animação
+          } )
+          passarinho.anims.play('fly', true); // faz o passarinho voar
+        }
+    
+        function update() { 
+            if (passarinho.x === 100) { // significa se a posição do passarinho for igual a 100 horizontalmente
+            passarinho.setFlip(false, false); // muda a direção do passarinho
+            passarinho.ida = true; // passarinho vai para a direita
+            }
+
+            if (passarinho.x < 700 && passarinho.ida === true) { // significa se a posição do passarinho for menor que 700 e o passarinho for para a direita
+            console.log("o passarinho se move para a direita"); // imprime frase no console
+            passarinho.x += 5; // move o passarinho para a direita
+            }
+            if (passarinho.x === 700) { // se a posição do passarinho for igual a 700
+            passarinho.setFlip(true, false); // muda a direção do passarinho
+            passarinho.ida = false; // passarinho vai para a esquerda
+            }
+
+            if (passarinho.x > 100 && passarinho.ida === false) { // se a posição do passarinho for maior que 100 e o passarinho for para a esquerda
+                passarinho.x -= 5; //  o passarinho vai para a esquerda
+                console.log("o passarinho se move para a esquerda"); // imprime frase no console
+            }
+            
+            if (passarinho.y > 100 && passarinho.sobe === true) { // se a posição do passarinho for maior que 100 e o passarinho subir
+            passarinho.y -= 10; // o passarinho vai para cima
+            console.log("o passarinho sobe"); // imprime frase no console
+            }
+
+            if (passarinho.y === 100) { // se a posição do passarinho for igual a 100
+                passarinho.sobe = false; // o passarinho desce
+            }
+            
+            if (passarinho.y < 500) {  // se a posição do passarinho for menor que 500
+                passarinho.y += 5; // o passarinho vai para baixo
+            console.log("o passarinho desce"); // imprime frase no console
+            }
+           
+            if (passarinho.y === 500) { // se a posição do passarinho for igual a 500
+                passarinho.sobe = true; // o passarinho sobe
+            } 
+    
+
+        }
+    
+    </script>
+</body>
+</html>
