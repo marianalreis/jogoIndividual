@@ -1,37 +1,61 @@
-# 🎓 Projetos do Módulo 1 – Mariana Lacerda Reis
+# 🗂️ Projetos e Atividades do Módulo 1 – Mariana Lacerda Reis
 
-Este repositório reúne **todas as atividades ponderadas** que desenvolvi ao longo do **Módulo 1** da minha formação.
-
-Cada pasta contém um jogo interativo que explora diferentes mecânicas e conceitos de desenvolvimento de jogos, sendo o resultado de desafios semanais propostos durante o curso. Também está incluído o **jogo final desenvolvido em grupo**, construído de forma colaborativa ao longo de todo o processo.
-
-## 👩‍💻 Desenvolvido por
-**Mariana Lacerda Reis**
-
-## 🌐 Acesse todos os jogos aqui:
-🔗 [Clique para abrir o portal de jogos](https://marianalreis.github.io/projetos_modulo1/)
+Este repositório reúne **todas as atividades desenvolvidas por mim, Mariana Lacerda Reis**, ao longo do **Módulo 1**. Ele contempla uma variedade de entregas acadêmicas, desde protótipos interativos até exercícios práticos aplicados em sala de aula.
 
 ---
 
-## 🎮 Jogos incluídos:
+## ✨ O que você encontrará aqui:
 
-- **Jogo Semana 1 – Tartaruga**
-- **Jogo Semana 2 – Pássaro**
-- **Jogo Semana 3 – Alien**
-- **Jogo Semana 4 – Dragão (Autoral)**
-- **Jogo Final em Grupo – Incluído no menu interativo**
+- 🎮 **Jogos desenvolvidos semanalmente**
+- 🎯 **Projeto final em grupo: _codeBreaker_**
+- 🎨 **Atividades de UX e Design**
+- 📝 **Listas de exercícios**
+- 💡 **Outras atividades realizadas durante as aulas**
 
-Cada jogo está acessível diretamente pelo menu da página principal acima. A navegação foi desenvolvida com uma interface simples e amigável para facilitar o acesso direto aos protótipos.
+Todos os jogos desenvolvidos estão acessíveis de forma interativa por meio da página a seguir:
 
----
-
-## 🛠️ Tecnologias utilizadas
-
-- HTML5
-- CSS3
-- JavaScript (básico)
-- GitHub Pages
+🔗 [**Acesse aqui todos os projetos**](https://marianalreis.github.io/projetos_modulo1/)
 
 ---
 
-## 📁 Estrutura do Repositório
+## 📌 Destaques do Repositório
+
+### 🎮 Jogos Semanais
+
+Cada jogo representa um desafio prático de desenvolvimento ao longo das semanas:
+
+- **Semana 1 – Tartaruga**
+- **Semana 2 – Pássaro**
+- **Semana 3 – Alien**
+- **Semana 4 – Dragão (Autoral)**
+
+> Todos estão disponíveis diretamente no portal de jogos pelo link acima.
+
+---
+
+### 👾 Projeto Final – `codeBreaker`
+
+O **codeBreaker** foi um jogo desenvolvido em grupo, consolidando os aprendizados de todo o módulo, desde mecânicas e lógica de programação, com biblioteca Phaser e linguagem JavaScript, até narrativa, arte e usabilidade. O projeto aplicou práticas de design centrado no usuário, prototipação e desenvolvimento iterativo.
+
+---
+
+### 🧠 Outras Entregas
+
+Além dos jogos, o repositório inclui:
+
+- Protótipos de interfaces e fluxos desenvolvidos nas aulas de **UX**
+- Relatórios, atividades e exercícios de sala
+- Listas práticas com aplicação dos conceitos estudados
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML, CSS, JavaScript, Phaser.js
+- Ferramentas de Design (Figma, Trello, etc.)
+- Git e GitHub para versionamento
+- GitHub Pages para publicação
+
+
+
 
