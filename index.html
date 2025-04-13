@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meus Jogos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+    }
+    h1 {
+      margin-bottom: 30px;
+      color: #333;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 900px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card a {
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎮 Meus Jogos do Módulo 1</h1>
+  <div class="grid">
+    <div class="card">
+      <a href="https://marianalreis.github.io/jogoIndividual/" target="_blank">Jogo Semana 1</a>
+    </div>
+    <div class="card">
+      <a href="https://marianalreis.github.io/jogo-passaro/" target="_blank">Jogo Semana 2 - Pássaro</a>
+    </div>
+    <div class="card">
+      <a href="https://marianalreis.github.io/Alien-Mari/" target="_blank">Jogo Semana 3 - Alien</a>
+    </div>
+    <div class="card">
+      <a href="https://marianalreis.github.io/jogo_autoral_mariana/" target="_blank">Jogo Semana 4 - Autoral</a>
+    </div>
+  </div>
+</body>
+</html>
+
